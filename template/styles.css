@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Poppins;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img{
+    width: 30%;
+    
+}
+.conteiner{
+    width: 30%;
+    min-height: 30vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho{
+   
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recebeFilme{
+    padding: 10px;
+    display:flex;
+    align-items: center;
+   
+}
+.recebeData{
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo{
+    color:#fffcf9;
+    text-align: center;
+}
+.bnt-conteiner{
+    color: #e9e6e3;
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+}
+.sb-titulo{
+    color:#b3b3b3;
+    text-align: left;
+    font-size: 12px;
+}
+
