@@ -19,50 +19,66 @@ body{
     background-size: cover;
 }
 #img{
-    width: 30%;
-    
+    width: 30%;  
+}
+#imgFilme{
+    width: 30%; 
 }
 .conteiner{
-    width: 30%;
-    min-height: 30vh;
+    /*border: solid 3px white;*/
+    width: 80%;
+    /*min-height: 30vh;*/
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
 }
 .cabecalho{
-   
+   /* border: solid 3px white;*/
     display:flex;
     flex-direction: column;
     align-items: center;
 }
 .recebeFilme{
+    /*border: solid 3px white;*/
+    width: 50%;
     padding: 10px;
     display:flex;
     align-items: center;
+    justify-content:space-evenly;
    
 }
 .recebeData{
+   /* border: solid 3px white;*/
     padding: 10px;
+    width: 50%;
     display:flex;
     flex-direction: column;
     align-items: center;
 }
 .titulo{
+    /*border: solid 3px white;*/
     color:#fffcf9;
     text-align: center;
 }
 .bnt-conteiner{
+   /* border: solid 3px white;*/
     color: #e9e6e3;
     padding: 10px;
 }
 button{
+
     padding: 10px;
     margin: 10px;
 }
 .sb-titulo{
+    /*border: solid 3px white;*/
     color:#b3b3b3;
     text-align: left;
     font-size: 12px;
+}
+#recebeTextoErro{
+    font-size: 16px;
+    color: #c12a23;
 }
 
